@@ -1,7 +1,7 @@
 node {
 
-   def registryProjet='web/'
-   def IMAGE="${registryProjet}app:3.5"
+   def registryProjet='gillesproject/'
+   def IMAGE="${registryProjet}buildand-push-jenkins:3.5"
 
     stage('Clone') {
           checkout scm
